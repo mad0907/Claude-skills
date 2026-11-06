@@ -1,0 +1,11 @@
+# Worked example (illustrative; claims proposed for a board deck on AI investment)
+
+| # | Claim | Original source (chain) | Date | Notes | Corroboration | Grade | Safe wording |
+|---|---|---|---|---|---|---|---|
+| 1 | "The global AI market will be $1.8 trillion by 2030" | Blog → press release from a market-research vendor; methodology paywalled | 2023 | Definition unclear (hardware, software, services?); vendor-funded | Other estimates range from $0.8-2.0T with different definitions | **C** | Don't use. Alternative: "Estimates of the AI market vary widely by definition. Our case does not depend on market size." |
+| 2 | "70% of transformations fail" | Repeated in articles → traced to a 1990s management-book estimate, not a systematic study | 1990s | No defined sample or definition of failure | Later studies report a wide range | **C** | "Many large change programmes fall short of their goals. Published estimates vary widely." |
+| 3 | "Our customer churn is twice the industry average" | Internal deck → CRM churn 13% vs an "industry average" of 6.5% from a trade-association survey | 2026 / 2025 | Survey covers enterprise SaaS (we are mid-market); voluntary response | No other benchmark found | **B** | "Our 13% churn is above the 6-8% reported in an industry survey of mainly enterprise vendors; mid-market benchmarks are not available." |
+| 4 | "DPDP Rules apply from May 2027" | Official gazette notification of the DPDP Rules (November 2025) → phased commencement | 2025 | Some provisions effective immediately, others at 12 and 18 months | Legal commentaries consistent | **A** (verify the dates against the gazette text) | "Most data-fiduciary obligations under the DPDP Rules apply 18 months after notification, around May 2027; some provisions apply earlier." |
+| 5 | "GenAI improves productivity by 40%" | Consultancy blog → a field study of one task type | 2023 | Task-specific; quality dropped on tasks outside AI's competence | Other studies show 14-55% on specific tasks | **B** | "Field studies report productivity gains from about 14% to over 50% on specific tasks, with quality risks on complex work. Our pilot measured 39% on standard contracts." |
+
+**Actions to verify:** for claim 3, ask the trade association for its mid-market cut. For claim 5, replace external figures with our pilot data wherever possible.

@@ -1,0 +1,2042 @@
+{
+ "packs": [
+  {
+   "id": "frame",
+   "name": "Frame the problem",
+   "tagline": "Get the question right before anyone builds a slide."
+  },
+  {
+   "id": "evidence",
+   "name": "Gather evidence",
+   "tagline": "Find, test and combine facts you can stand behind."
+  },
+  {
+   "id": "market",
+   "name": "Understand the market",
+   "tagline": "Size it, segment it, and see who wins and why."
+  },
+  {
+   "id": "strategy",
+   "name": "Shape the strategy",
+   "tagline": "Turn analysis into real choices with clear trade-offs."
+  },
+  {
+   "id": "numbers",
+   "name": "Run the numbers",
+   "tagline": "Business cases, models and metrics a CFO will trust."
+  },
+  {
+   "id": "story",
+   "name": "Tell the story",
+   "tagline": "Storylines, slides and memos that get to a decision."
+  },
+  {
+   "id": "deliver",
+   "name": "Deliver and change",
+   "tagline": "Plans, roles, risks and the people side of change."
+  },
+  {
+   "id": "board",
+   "name": "Boardroom and governance",
+   "tagline": "Board papers, oversight questions, risk, ESG and AI governance."
+  },
+  {
+   "id": "ai",
+   "name": "AI transformation",
+   "tagline": "Find, prove and scale AI use cases responsibly."
+  },
+  {
+   "id": "leader",
+   "name": "Leader's desk",
+   "tagline": "Everyday tools for meetings, negotiations and messages."
+  },
+  {
+   "id": "playbooks",
+   "name": "Playbooks",
+   "tagline": "End-to-end flows that chain several skills together."
+  }
+ ],
+ "skills": [
+  {
+   "id": "problem-statement",
+   "pack": "frame",
+   "title": "Problem Statement",
+   "time": "10 min",
+   "summary": "Turn a vague ask into one sharp, decision-focused question with scope and success criteria.",
+   "tryp": "Our CEO says 'we need to fix customer churn'. Help me frame the real problem. We are a B2B SaaS firm, ~2,000 customers, churn went from 8% to 13% in a year.",
+   "when": [
+    "A project or request is starting and the ask is fuzzy ('look into pricing', 'fix churn')",
+    "A team keeps debating solutions before agreeing on the problem",
+    "You need a one-paragraph brief to align a sponsor before work begins"
+   ],
+   "inputs": [
+    "The request in the sponsor's own words",
+    "Who will make the decision, and by when",
+    "What is in and out of scope; known constraints (budget, policy, time)",
+    "Any numbers that show the problem today"
+   ],
+   "pairs": [
+    "audience-brief",
+    "issue-tree",
+    "hypothesis-tree",
+    "engagement-workplan"
+   ]
+  },
+  {
+   "id": "audience-brief",
+   "pack": "frame",
+   "title": "Audience Brief",
+   "time": "10 min",
+   "summary": "Profile who you are persuading: what they care about, what they already believe, and what would change their mind.",
+   "tryp": "I'm presenting a cloud migration proposal to our CFO and the audit committee chair next week. Build an audience brief.",
+   "when": [
+    "Before writing any deck, memo or speech that must persuade",
+    "When presenting to a board, investors, a regulator or a new executive",
+    "When a past presentation 'landed badly' and you need to know why"
+   ],
+   "inputs": [
+    "Who the audience is (names, roles, or type)",
+    "What you want them to decide or do",
+    "What you know about their priorities, history with the topic and style",
+    "The format and time you will get"
+   ],
+   "pairs": [
+    "scqa-storyline",
+    "executive-summary",
+    "stakeholder-map",
+    "meeting-brief"
+   ]
+  },
+  {
+   "id": "issue-tree",
+   "pack": "frame",
+   "title": "Issue Tree",
+   "time": "15 min",
+   "summary": "Break a big question into a logical tree of smaller questions you can actually answer.",
+   "tryp": "Build an issue tree for: why has our hospital's operating margin fallen from 6% to 1% in two years?",
+   "when": [
+    "After the problem statement is agreed and before analysis starts",
+    "To split work across a team without overlap",
+    "When a discussion goes in circles and needs structure"
+   ],
+   "inputs": [
+    "The key question (ideally from the Problem Statement skill)",
+    "Whether you need a 'why' tree (diagnose a cause) or a 'how' tree (find solutions)",
+    "Any data you already have"
+   ],
+   "pairs": [
+    "mece-check",
+    "hypothesis-tree",
+    "engagement-workplan",
+    "kpi-driver-tree"
+   ]
+  },
+  {
+   "id": "hypothesis-tree",
+   "pack": "frame",
+   "title": "Hypothesis Tree",
+   "time": "15 min",
+   "summary": "Start from a likely answer, then list exactly what must be true and how you would prove or kill it.",
+   "tryp": "Hypothesis: we should exit our retail banking business in Country X. Build the hypothesis tree and the tests.",
+   "when": [
+    "You have an informed 'day-one answer' and want to test it fast",
+    "Time is short and you cannot analyse everything",
+    "You need to show a sponsor what evidence would change the recommendation"
+   ],
+   "inputs": [
+    "The question and your best current answer",
+    "What is known already, and what data is available",
+    "Time available"
+   ],
+   "pairs": [
+    "issue-tree",
+    "research-plan",
+    "red-team-review",
+    "pre-mortem"
+   ]
+  },
+  {
+   "id": "mece-check",
+   "pack": "frame",
+   "title": "MECE Check",
+   "time": "5 min",
+   "summary": "Audit any list, structure or storyline for overlaps and gaps, then fix it.",
+   "tryp": "Check this for MECE: our growth levers are 1) new customers 2) digital 3) pricing 4) upselling 5) Asia expansion 6) partnerships.",
+   "when": [
+    "Reviewing a structure, workstream list, agenda or set of options",
+    "A slide lists 'key reasons' or 'key drivers' that feel messy",
+    "Before you assign work to people (overlap = duplicated effort)"
+   ],
+   "inputs": [
+    "The list or structure to check",
+    "What it is meant to cover (the 'whole')"
+   ],
+   "pairs": [
+    "issue-tree",
+    "pyramid-structure",
+    "customer-segmentation",
+    "deck-quality-check"
+   ]
+  },
+  {
+   "id": "stakeholder-map",
+   "pack": "frame",
+   "title": "Stakeholder Map",
+   "time": "15 min",
+   "summary": "Map who matters, where they stand, and the plan to move each of them.",
+   "tryp": "Map stakeholders for rolling out a shared-services finance centre across 6 business units. The BU CFOs are sceptical.",
+   "when": [
+    "At project start, or when a decision needs buy-in from many people",
+    "When an initiative stalls and you suspect politics",
+    "Before a board or SteerCo where someone may block"
+   ],
+   "inputs": [
+    "The initiative and the decision needed",
+    "Names or roles of people involved",
+    "What you know of each person's position"
+   ],
+   "pairs": [
+    "change-plan",
+    "audience-brief",
+    "raci-builder",
+    "negotiation-prep"
+   ]
+  },
+  {
+   "id": "engagement-workplan",
+   "pack": "frame",
+   "title": "Engagement Workplan",
+   "time": "15 min",
+   "summary": "Turn the issue tree into a week-by-week plan: analyses, owners, data, meetings and deliverables.",
+   "tryp": "Build a 6-week workplan for a pricing review across 3 product lines, team of 4, SteerCo every 2 weeks.",
+   "when": [
+    "Kicking off a project, study or engagement",
+    "Re-planning after scope change",
+    "Showing a sponsor how the work will reach an answer on time"
+   ],
+   "inputs": [
+    "Key question and issue tree (or hypotheses)",
+    "Duration, team size, roles",
+    "Fixed dates: SteerCos, board, budget cycle"
+   ],
+   "pairs": [
+    "issue-tree",
+    "research-plan",
+    "ghost-deck",
+    "steerco-update"
+   ]
+  },
+  {
+   "id": "research-plan",
+   "pack": "evidence",
+   "title": "Research Plan",
+   "time": "10 min",
+   "summary": "Plan exactly what to find out, from which sources, in what order, before searching anything.",
+   "tryp": "Plan the research to understand the Indian cold-chain logistics market for a possible investment. I have 2 weeks.",
+   "when": [
+    "Before desk research, due diligence or a briefing",
+    "When research tends to sprawl and eat time",
+    "To brief an analyst or junior team member"
+   ],
+   "inputs": [
+    "The question or hypothesis the research serves",
+    "Time available",
+    "Sources you have access to (databases, experts, internal data)"
+   ],
+   "pairs": [
+    "source-validation",
+    "research-synthesis",
+    "interview-guide",
+    "market-sizing"
+   ]
+  },
+  {
+   "id": "source-validation",
+   "pack": "evidence",
+   "title": "Source Validation",
+   "time": "10 min",
+   "summary": "Grade every source and claim for reliability so you never put a weak number in front of a board.",
+   "tryp": "Validate these claims for our deck: 1) the global AI market will be $1.8T by 2030 (from a blog) 2) 70% of transformations fail 3) our churn is 2x industry average.",
+   "when": [
+    "Before key facts go into a recommendation",
+    "When sources disagree",
+    "When a statistic sounds too neat (70% of X fail...)"
+   ],
+   "inputs": [
+    "The claims or numbers",
+    "Where each came from (links or document names)"
+   ],
+   "pairs": [
+    "research-synthesis",
+    "deck-quality-check",
+    "board-paper",
+    "red-team-review"
+   ]
+  },
+  {
+   "id": "research-synthesis",
+   "pack": "evidence",
+   "title": "Research Synthesis",
+   "time": "15 min",
+   "summary": "Turn piles of notes, reports and links into a few clear findings with evidence and implications.",
+   "tryp": "Synthesise these 6 analyst reports and my notes on the EV charging market into key findings for our investment committee.",
+   "when": [
+    "After desk research or document review",
+    "When a team has lots of material but no clear message",
+    "To brief a busy executive on a complex topic"
+   ],
+   "inputs": [
+    "The material (paste, attach or summarise)",
+    "The question it should answer",
+    "The audience"
+   ],
+   "pairs": [
+    "insight-synthesis",
+    "executive-summary",
+    "source-validation",
+    "scqa-storyline"
+   ]
+  },
+  {
+   "id": "interview-guide",
+   "pack": "evidence",
+   "title": "Interview Guide",
+   "time": "10 min",
+   "summary": "Write a crisp guide for expert, customer or employee interviews that gets real answers, not opinions.",
+   "tryp": "Write a 45-minute interview guide for talking to hospital procurement heads about buying AI radiology tools.",
+   "when": [
+    "Expert network calls, customer discovery, employee listening tours",
+    "Due diligence reference calls",
+    "Any interview where you have limited time with a senior person"
+   ],
+   "inputs": [
+    "Purpose and hypotheses to test",
+    "Who is being interviewed",
+    "Length of the interview",
+    "Any compliance rules (e.g. no confidential info from experts)"
+   ],
+   "pairs": [
+    "interview-synthesis",
+    "research-plan",
+    "jobs-to-be-done",
+    "survey-design"
+   ]
+  },
+  {
+   "id": "interview-synthesis",
+   "pack": "evidence",
+   "title": "Interview Synthesis",
+   "time": "15 min",
+   "summary": "Turn many interview notes into patterns, quotes and numbers, with how strongly each is supported.",
+   "tryp": "Here are notes from 12 customer interviews about our onboarding. Synthesise the findings.",
+   "when": [
+    "After a round of interviews or calls",
+    "When you need quotes and patterns for a deck",
+    "To compare views across groups (customers vs staff, region A vs B)"
+   ],
+   "inputs": [
+    "Interview notes or transcripts",
+    "The objectives or hypotheses",
+    "Interviewee profiles (role, segment)"
+   ],
+   "pairs": [
+    "interview-guide",
+    "insight-synthesis",
+    "survey-design",
+    "customer-segmentation"
+   ]
+  },
+  {
+   "id": "survey-design",
+   "pack": "evidence",
+   "title": "Survey Design",
+   "time": "15 min",
+   "summary": "Design a short, unbiased survey that produces numbers you can actually use.",
+   "tryp": "Design a 10-minute survey for SME owners in India about willingness to pay for an AI bookkeeping assistant.",
+   "when": [
+    "Customer, employee, pulse or market surveys",
+    "Pricing or feature-priority research",
+    "When you need numbers from many people, not depth from a few"
+   ],
+   "inputs": [
+    "Objectives and decisions the survey serves",
+    "Target respondents and how you reach them",
+    "Length limit",
+    "Any must-ask questions"
+   ],
+   "pairs": [
+    "survey-analysis",
+    "pricing-strategy",
+    "customer-segmentation",
+    "interview-guide"
+   ]
+  },
+  {
+   "id": "survey-analysis",
+   "pack": "evidence",
+   "title": "Survey Analysis",
+   "time": "15 min",
+   "summary": "Turn survey results into a few significant, decision-relevant insights with honest caveats.",
+   "tryp": "Here's our employee engagement survey export (CSV, 1,400 responses). What are the real insights?",
+   "when": [
+    "After an employee, customer or market survey",
+    "When a team has charts but no clear message",
+    "Comparing segments, regions or time periods"
+   ],
+   "inputs": [
+    "The data (file or table) and the questionnaire",
+    "Objectives",
+    "Segments to compare"
+   ],
+   "pairs": [
+    "survey-design",
+    "exhibit-builder",
+    "insight-synthesis",
+    "chart-selection"
+   ]
+  },
+  {
+   "id": "market-sizing",
+   "pack": "market",
+   "title": "Market Sizing",
+   "time": "15 min",
+   "summary": "Size a market top-down and bottom-up, reconcile the two, and show every assumption.",
+   "tryp": "Size the market for AI-powered invoice processing for mid-size companies in India.",
+   "when": [
+    "Market entry or investment decisions",
+    "Product launch business cases",
+    "Checking a market number someone quoted"
+   ],
+   "inputs": [
+    "The product or service and the geography",
+    "The customer definition",
+    "Any known data points (prices, customer counts, reports)"
+   ],
+   "pairs": [
+    "customer-segmentation",
+    "competitor-benchmark",
+    "business-case",
+    "source-validation"
+   ]
+  },
+  {
+   "id": "customer-segmentation",
+   "pack": "market",
+   "title": "Customer Segmentation",
+   "time": "15 min",
+   "summary": "Group customers by needs and value so you can focus, price and serve them differently.",
+   "tryp": "Segment our B2B customers (logistics software) — we have revenue, industry, size, products used and support tickets for 800 accounts.",
+   "when": [
+    "Deciding which customers to focus on",
+    "Designing offers, pricing tiers or sales coverage",
+    "When 'one size fits all' is failing"
+   ],
+   "inputs": [
+    "Customer data or a description of the customer base",
+    "The decision the segmentation serves",
+    "Constraints (sales channels, products)"
+   ],
+   "pairs": [
+    "jobs-to-be-done",
+    "pricing-strategy",
+    "market-sizing",
+    "unit-economics"
+   ]
+  },
+  {
+   "id": "competitor-benchmark",
+   "pack": "market",
+   "title": "Competitor Benchmark",
+   "time": "15 min",
+   "summary": "Compare competitors on the factors that matter to customers and economics, and spot where to win.",
+   "tryp": "Benchmark the top 5 competitors of a mid-size Indian private bank on digital, cost-to-income, CASA ratio and SME lending.",
+   "when": [
+    "Strategy reviews and market entry",
+    "Pricing and product decisions",
+    "Board or investor briefings on competitive position"
+   ],
+   "inputs": [
+    "Your company and market",
+    "Competitors you know of",
+    "Criteria that matter (or let the skill propose them)",
+    "Any data you have"
+   ],
+   "pairs": [
+    "five-forces",
+    "swot-tows",
+    "pricing-strategy",
+    "source-validation"
+   ]
+  },
+  {
+   "id": "five-forces",
+   "pack": "market",
+   "title": "Five Forces",
+   "time": "15 min",
+   "summary": "Judge how attractive an industry is and what drives profits, using the five forces framework with evidence.",
+   "tryp": "Five forces analysis for the Indian quick-commerce grocery industry.",
+   "when": [
+    "Market entry or exit",
+    "Investment or M&A screening",
+    "Explaining why margins are moving"
+   ],
+   "inputs": [
+    "Industry and geography",
+    "Whether you are an incumbent, entrant or investor",
+    "Any data you have"
+   ],
+   "pairs": [
+    "pestel-scan",
+    "competitor-benchmark",
+    "value-chain",
+    "playbook-market-entry"
+   ]
+  },
+  {
+   "id": "pestel-scan",
+   "pack": "market",
+   "title": "PESTEL Scan",
+   "time": "10 min",
+   "summary": "Scan political, economic, social, technological, environmental and legal shifts, and rank what really matters.",
+   "tryp": "PESTEL scan for a European pharma company setting up a manufacturing plant in Telangana.",
+   "when": [
+    "Strategy refresh or market entry",
+    "Input to scenarios or risk registers",
+    "Board horizon scanning"
+   ],
+   "inputs": [
+    "Business, market and geography",
+    "Time horizon"
+   ],
+   "pairs": [
+    "scenario-planning",
+    "five-forces",
+    "risk-assessment",
+    "esg-materiality"
+   ]
+  },
+  {
+   "id": "value-chain",
+   "pack": "market",
+   "title": "Value Chain Analysis",
+   "time": "15 min",
+   "summary": "Map where value and cost sit across the chain, and find where to compete, cut or integrate.",
+   "tryp": "Map the value chain for branded generics pharma in India and show where the profit pools are.",
+   "when": [
+    "Cost reduction and outsourcing questions",
+    "Vertical integration or partnership decisions",
+    "Understanding where disruption will hit"
+   ],
+   "inputs": [
+    "Company or industry",
+    "Cost or margin data if available",
+    "Question to answer"
+   ],
+   "pairs": [
+    "cost-takeout",
+    "build-buy-partner",
+    "operating-model",
+    "five-forces"
+   ]
+  },
+  {
+   "id": "jobs-to-be-done",
+   "pack": "market",
+   "title": "Jobs To Be Done",
+   "time": "15 min",
+   "summary": "Understand the real 'job' customers hire you for, and the outcomes they measure you on.",
+   "tryp": "What jobs do CFOs hire an FP&A software for? Build a jobs-to-be-done map.",
+   "when": [
+    "Product or service design",
+    "Positioning and messaging",
+    "Finding innovation white space"
+   ],
+   "inputs": [
+    "Customer type and context",
+    "Any interview notes or research",
+    "Your product (optional)"
+   ],
+   "pairs": [
+    "customer-segmentation",
+    "interview-guide",
+    "pricing-strategy",
+    "ai-opportunity-scan"
+   ]
+  },
+  {
+   "id": "pricing-strategy",
+   "pack": "market",
+   "title": "Pricing Strategy",
+   "time": "15 min",
+   "summary": "Set or reset prices using value, cost and competition, with tiers and a test plan.",
+   "tryp": "We sell HR software at a flat ₹500/user/month. Help us redesign pricing; margins are falling and big customers get 40% discounts.",
+   "when": [
+    "Launching a product or entering a market",
+    "Margin pressure or uncontrolled discounting",
+    "Moving to subscription, usage or tiered models"
+   ],
+   "inputs": [
+    "Product and customers",
+    "Current prices, discounts, costs",
+    "Competitor prices",
+    "Goals (margin, volume, share)"
+   ],
+   "pairs": [
+    "customer-segmentation",
+    "unit-economics",
+    "survey-design",
+    "sensitivity-analysis"
+   ]
+  },
+  {
+   "id": "swot-tows",
+   "pack": "strategy",
+   "title": "SWOT to TOWS",
+   "time": "15 min",
+   "summary": "Do SWOT properly: evidence-based factors, then turn them into concrete strategic moves (TOWS).",
+   "tryp": "Do a SWOT and TOWS for a regional hospital chain in Tier-2 Indian cities facing entry by national chains.",
+   "when": [
+    "Strategy offsites and annual reviews",
+    "Quick strategic assessment of a business unit",
+    "When someone asks for a 'SWOT' and you want it to lead somewhere"
+   ],
+   "inputs": [
+    "The organisation and its context",
+    "Known facts: performance, market, competitors"
+   ],
+   "pairs": [
+    "strategic-options",
+    "vrio-analysis",
+    "pestel-scan",
+    "competitor-benchmark"
+   ]
+  },
+  {
+   "id": "vrio-analysis",
+   "pack": "strategy",
+   "title": "VRIO Analysis",
+   "time": "10 min",
+   "summary": "Test which resources and capabilities give a lasting advantage, and which are just table stakes.",
+   "tryp": "Run VRIO on our capabilities: proprietary claims data, 1,200 hospital network, in-house underwriting AI, brand in South India.",
+   "when": [
+    "Defining 'right to win'",
+    "Testing an acquisition or investment thesis",
+    "Deciding which capabilities to invest in"
+   ],
+   "inputs": [
+    "List of resources and capabilities (or let the skill draft one)",
+    "Competitor context"
+   ],
+   "pairs": [
+    "swot-tows",
+    "strategic-options",
+    "build-buy-partner",
+    "ai-opportunity-scan"
+   ]
+  },
+  {
+   "id": "growth-options",
+   "pack": "strategy",
+   "title": "Growth Options",
+   "time": "15 min",
+   "summary": "Lay out all the ways to grow (core, adjacent, new) and size and rank them.",
+   "tryp": "Lay out growth options for a ₹800 Cr specialty chemicals firm that sells mainly to Indian textile makers.",
+   "when": [
+    "Growth strategy and planning",
+    "Revenue gap to a target",
+    "Investor or board growth narrative"
+   ],
+   "inputs": [
+    "Current business: products, customers, geographies",
+    "Growth target and time frame",
+    "Constraints: capital, capabilities, risk appetite"
+   ],
+   "pairs": [
+    "strategic-options",
+    "portfolio-matrix",
+    "market-sizing",
+    "build-buy-partner"
+   ]
+  },
+  {
+   "id": "strategic-options",
+   "pack": "strategy",
+   "title": "Strategic Options Evaluation",
+   "time": "15 min",
+   "summary": "Compare 2-5 real options against agreed criteria, with trade-offs made explicit, and recommend one.",
+   "tryp": "Evaluate options for our underperforming European subsidiary: fix, merge with UK, sell, or close.",
+   "when": [
+    "Board or ExCo choices between alternatives",
+    "When debate is stuck on preferences",
+    "Documenting why an option was chosen"
+   ],
+   "inputs": [
+    "The decision and options (or ask the skill to generate them)",
+    "What matters: criteria and constraints",
+    "Data on each option"
+   ],
+   "pairs": [
+    "decision-memo",
+    "sensitivity-analysis",
+    "scenario-planning",
+    "board-paper"
+   ]
+  },
+  {
+   "id": "portfolio-matrix",
+   "pack": "strategy",
+   "title": "Portfolio Matrix",
+   "time": "15 min",
+   "summary": "Plot business units or products by attractiveness and strength, and decide invest, hold, fix or exit.",
+   "tryp": "Here are our 9 product lines with revenue, growth, margin and market share. Build a portfolio matrix and recommend roles.",
+   "when": [
+    "Capital allocation and budgeting",
+    "Product or SKU rationalisation",
+    "Project portfolio reviews"
+   ],
+   "inputs": [
+    "List of units/products/projects with data (revenue, growth, margin, share, capital)",
+    "Strategic priorities"
+   ],
+   "pairs": [
+    "growth-options",
+    "strategic-options",
+    "business-case",
+    "board-paper"
+   ]
+  },
+  {
+   "id": "scenario-planning",
+   "pack": "strategy",
+   "title": "Scenario Planning",
+   "time": "20 min",
+   "summary": "Build 3-4 plausible futures from key uncertainties, and find moves that work across them.",
+   "tryp": "Build 2030 scenarios for an Indian IT services firm, given uncertainty about GenAI's impact on headcount-based revenue.",
+   "when": [
+    "Long-term strategy under uncertainty",
+    "Big investments with long payback",
+    "Board strategy days"
+   ],
+   "inputs": [
+    "The focal question and time horizon",
+    "Key trends and uncertainties (or a PESTEL scan)"
+   ],
+   "pairs": [
+    "pestel-scan",
+    "strategic-options",
+    "sensitivity-analysis",
+    "risk-appetite"
+   ]
+  },
+  {
+   "id": "build-buy-partner",
+   "pack": "strategy",
+   "title": "Build, Buy or Partner",
+   "time": "15 min",
+   "summary": "Decide whether to build a capability, acquire it, or partner, with a clear rationale.",
+   "tryp": "Should we build our own GenAI underwriting assistant, buy a vendor product, or partner with an insurtech?",
+   "when": [
+    "Technology or platform choices",
+    "Capability gaps in a strategy",
+    "M&A vs organic debates"
+   ],
+   "inputs": [
+    "The capability needed and why",
+    "Options known (vendors, targets, partners)",
+    "Time, budget and talent constraints"
+   ],
+   "pairs": [
+    "strategic-options",
+    "business-case",
+    "ai-business-case",
+    "vrio-analysis"
+   ]
+  },
+  {
+   "id": "business-case",
+   "pack": "numbers",
+   "title": "Business Case",
+   "time": "20 min",
+   "summary": "Build a decision-ready business case: options, costs, benefits, NPV, risks and the ask.",
+   "tryp": "Build a business case for automating accounts payable at a 5,000-employee manufacturer: ~180,000 invoices a year, 22 AP staff.",
+   "when": [
+    "Investment committee or budget approval",
+    "Programme or project funding",
+    "Comparing investments for a portfolio"
+   ],
+   "inputs": [
+    "The proposal and the problem it solves",
+    "Cost and benefit estimates you have",
+    "Company discount rate (hurdle rate), time horizon",
+    "Approver and decision date"
+   ],
+   "pairs": [
+    "financial-model-spec",
+    "sensitivity-analysis",
+    "benefits-tracker",
+    "playbook-investment-case"
+   ]
+  },
+  {
+   "id": "financial-model-spec",
+   "pack": "numbers",
+   "title": "Financial Model Spec",
+   "time": "20 min",
+   "summary": "Design a clean, auditable financial model: structure, drivers, sheets and checks, ready to build.",
+   "tryp": "Spec a 5-year financial model for a new D2C skincare brand: revenue by channel, CAC, gross margin, working capital, funding needs.",
+   "when": [
+    "Before anyone opens spreadsheet",
+    "Briefing an analyst to build a model",
+    "Fixing an existing model that nobody trusts"
+   ],
+   "inputs": [
+    "Purpose and decisions the model supports",
+    "Business model and key drivers",
+    "Time horizon and granularity",
+    "Who will use it"
+   ],
+   "pairs": [
+    "business-case",
+    "unit-economics",
+    "sensitivity-analysis",
+    "kpi-driver-tree"
+   ]
+  },
+  {
+   "id": "unit-economics",
+   "pack": "numbers",
+   "title": "Unit Economics",
+   "time": "15 min",
+   "summary": "Work out whether each customer, order or unit makes money, and which levers fix it.",
+   "tryp": "Our subscription meal kit: ₹2,400 per box, food cost ₹1,150, delivery ₹220, packaging ₹140, discounts avg 12%, CAC ₹1,900, 38% churn per month. Do the unit economics.",
+   "when": [
+    "Start-up or new product evaluation",
+    "Channel or marketing efficiency",
+    "Investor due diligence"
+   ],
+   "inputs": [
+    "Price, variable costs, discounts",
+    "Acquisition costs",
+    "Retention or repeat data"
+   ],
+   "pairs": [
+    "pricing-strategy",
+    "financial-model-spec",
+    "kpi-driver-tree",
+    "customer-segmentation"
+   ]
+  },
+  {
+   "id": "sensitivity-analysis",
+   "pack": "numbers",
+   "title": "Sensitivity Analysis",
+   "time": "10 min",
+   "summary": "Find which assumptions really move the answer, and what has to be true for the decision to flip.",
+   "tryp": "Run a sensitivity on this business case: volume 10,000 units, price ₹4,500, unit cost ₹2,900, fixed cost ₹1.2 Cr, capex ₹3 Cr, 5 years, 12% discount rate.",
+   "when": [
+    "Before presenting any number-based recommendation",
+    "When challenged 'what if you're wrong?'",
+    "To decide which assumptions need more research"
+   ],
+   "inputs": [
+    "The model or the key formula and base-case inputs",
+    "Reasonable ranges for each input (or let the skill propose)"
+   ],
+   "pairs": [
+    "business-case",
+    "scenario-planning",
+    "break-even-payback",
+    "financial-model-spec"
+   ]
+  },
+  {
+   "id": "break-even-payback",
+   "pack": "numbers",
+   "title": "Break-even and Payback",
+   "time": "10 min",
+   "summary": "Quickly find the break-even volume, payback period and margin of safety for a decision.",
+   "tryp": "We're opening a new clinic: fit-out ₹1.8 Cr, monthly fixed cost ₹22 lakh, average bill ₹1,400, variable cost 35%. Break-even and payback?",
+   "when": [
+    "Quick screening of an idea or project",
+    "New site, product or store decisions",
+    "Explaining economics to non-finance colleagues"
+   ],
+   "inputs": [
+    "Fixed costs, variable cost per unit (or %), price per unit",
+    "Up-front investment",
+    "Expected volume and ramp-up"
+   ],
+   "pairs": [
+    "sensitivity-analysis",
+    "business-case",
+    "unit-economics",
+    "pricing-strategy"
+   ]
+  },
+  {
+   "id": "kpi-driver-tree",
+   "pack": "numbers",
+   "title": "KPI Driver Tree",
+   "time": "15 min",
+   "summary": "Break a top metric into the drivers people can act on, with owners and targets.",
+   "tryp": "Build a driver tree for EBITDA margin of a cement plant, down to operational levers.",
+   "when": [
+    "Setting targets and cascading them",
+    "Designing dashboards",
+    "Value creation and turnaround plans"
+   ],
+   "inputs": [
+    "The top metric",
+    "Business model",
+    "Current numbers if available"
+   ],
+   "pairs": [
+    "kpi-dashboard",
+    "issue-tree",
+    "cost-takeout",
+    "benefits-tracker"
+   ]
+  },
+  {
+   "id": "kpi-dashboard",
+   "pack": "numbers",
+   "title": "KPI Dashboard",
+   "time": "15 min",
+   "summary": "Design a one-page dashboard leaders will actually use: right metrics, targets, layout and alerts.",
+   "tryp": "Design a monthly executive dashboard for a 300-bed hospital's CEO.",
+   "when": [
+    "Setting up management or board reporting",
+    "Replacing a 40-page pack nobody reads",
+    "Tracking a transformation programme"
+   ],
+   "inputs": [
+    "Audience and decisions the dashboard supports",
+    "Candidate metrics and data available",
+    "Frequency"
+   ],
+   "pairs": [
+    "kpi-driver-tree",
+    "chart-selection",
+    "exhibit-builder",
+    "steerco-update"
+   ]
+  },
+  {
+   "id": "cost-takeout",
+   "pack": "numbers",
+   "title": "Cost Take-out",
+   "time": "20 min",
+   "summary": "Build a structured cost-reduction plan: baseline, levers, sizing, phasing and risks to service.",
+   "tryp": "We need to cut ₹40 Cr (8%) from a ₹500 Cr cost base in a retail chain over 18 months without hurting customer experience. Build the plan.",
+   "when": [
+    "Margin pressure or budget cuts",
+    "Post-merger synergy plans",
+    "Zero-based budgeting"
+   ],
+   "inputs": [
+    "Cost baseline (by category, function or site)",
+    "Target and timeframe",
+    "Things that are off-limits"
+   ],
+   "pairs": [
+    "value-chain",
+    "kpi-driver-tree",
+    "benefits-tracker",
+    "change-plan"
+   ]
+  },
+  {
+   "id": "scqa-storyline",
+   "pack": "story",
+   "title": "SCQA Storyline",
+   "time": "10 min",
+   "summary": "Build the storyline every executive document needs: Situation, Complication, Question, Answer.",
+   "tryp": "Build an SCQA storyline: we want approval to consolidate 4 regional data centres into one hybrid cloud setup.",
+   "when": [
+    "Starting any deck, memo, board paper or speech",
+    "Fixing a draft that is 'all data, no message'",
+    "Preparing a 2-minute verbal summary"
+   ],
+   "inputs": [
+    "Topic and audience",
+    "Your recommendation (or findings so far)",
+    "Key facts"
+   ],
+   "pairs": [
+    "pyramid-structure",
+    "executive-summary",
+    "ghost-deck",
+    "audience-brief"
+   ]
+  },
+  {
+   "id": "pyramid-structure",
+   "pack": "story",
+   "title": "Pyramid Structure",
+   "time": "10 min",
+   "summary": "Structure any argument top-down: answer first, grouped support, evidence below.",
+   "tryp": "Restructure this draft email to the CEO into a pyramid: [paste draft].",
+   "when": [
+    "Organising any recommendation or report",
+    "Restructuring a long or rambling draft",
+    "Preparing for a tough Q&A"
+   ],
+   "inputs": [
+    "The draft, notes or findings",
+    "The main message (or let the skill infer it)"
+   ],
+   "pairs": [
+    "scqa-storyline",
+    "mece-check",
+    "executive-summary",
+    "executive-email"
+   ]
+  },
+  {
+   "id": "executive-summary",
+   "pack": "story",
+   "title": "Executive Summary",
+   "time": "10 min",
+   "summary": "Write a one-page executive summary a busy leader can act on in two minutes.",
+   "tryp": "Write an executive summary of this 30-page vendor assessment for our CIO: [paste or attach].",
+   "when": [
+    "Any document longer than 3 pages",
+    "Board or ExCo pre-reads",
+    "Handing over findings to a busy sponsor"
+   ],
+   "inputs": [
+    "The source material",
+    "Audience and the decision they own"
+   ],
+   "pairs": [
+    "scqa-storyline",
+    "board-paper",
+    "decision-memo",
+    "insight-synthesis"
+   ]
+  },
+  {
+   "id": "insight-synthesis",
+   "pack": "story",
+   "title": "Insight Synthesis",
+   "time": "10 min",
+   "summary": "Turn analysis outputs into true insights: what it means, why it matters, what to do.",
+   "tryp": "Here are 15 observations from our sales analysis. Turn them into the 4-5 real insights for the leadership team.",
+   "when": [
+    "After analysis, before building slides",
+    "When a team has findings but no 'so what'",
+    "Preparing a board narrative from data"
+   ],
+   "inputs": [
+    "Observations, findings or charts",
+    "The decision or question"
+   ],
+   "pairs": [
+    "research-synthesis",
+    "action-titles",
+    "scqa-storyline",
+    "exhibit-builder"
+   ]
+  },
+  {
+   "id": "action-titles",
+   "pack": "story",
+   "title": "Action Titles",
+   "time": "5 min",
+   "summary": "Rewrite slide titles so each one states the takeaway, and the titles alone tell the story.",
+   "tryp": "Rewrite these slide titles as action titles: 1) Revenue overview 2) Customer survey results 3) Cost analysis 4) Next steps.",
+   "when": [
+    "Every deck before review",
+    "When a deck feels descriptive, not persuasive",
+    "Turning an analysis deck into a decision deck"
+   ],
+   "inputs": [
+    "Current slide titles (and ideally slide content)",
+    "The overall message of the deck"
+   ],
+   "pairs": [
+    "ghost-deck",
+    "slide-copy-editor",
+    "deck-quality-check",
+    "exhibit-builder"
+   ]
+  },
+  {
+   "id": "ghost-deck",
+   "pack": "story",
+   "title": "Ghost Deck",
+   "time": "15 min",
+   "summary": "Draft the whole deck as titles and sketched exhibits before doing the analysis, so the work stays focused.",
+   "tryp": "Build a ghost deck for a board presentation recommending entry into the Middle East market for our edtech company.",
+   "when": [
+    "Early in a project, to focus analysis",
+    "Planning any important deck",
+    "Aligning a team on what each person produces"
+   ],
+   "inputs": [
+    "The storyline or hypothesis",
+    "Audience and length limit"
+   ],
+   "pairs": [
+    "scqa-storyline",
+    "action-titles",
+    "engagement-workplan",
+    "exhibit-builder"
+   ]
+  },
+  {
+   "id": "chart-selection",
+   "pack": "story",
+   "title": "Chart Selection",
+   "time": "5 min",
+   "summary": "Pick the right chart for the message, and avoid charts that confuse or mislead.",
+   "tryp": "What's the best chart to show how our cost per claim compares across 12 regions and against the target?",
+   "when": [
+    "Making any chart",
+    "Fixing a chart that confuses people",
+    "Building a dashboard"
+   ],
+   "inputs": [
+    "The message you want to show",
+    "The data (shape and size)"
+   ],
+   "pairs": [
+    "exhibit-builder",
+    "kpi-dashboard",
+    "action-titles",
+    "survey-analysis"
+   ]
+  },
+  {
+   "id": "exhibit-builder",
+   "pack": "story",
+   "title": "Exhibit Builder",
+   "time": "15 min",
+   "summary": "Design a complete, board-ready exhibit: title, chart, callouts, source, and the code to draw it.",
+   "tryp": "Build an exhibit from this data showing that 3 product lines generate 80% of our profit: [paste table].",
+   "when": [
+    "Turning data into a slide visual",
+    "Rebuilding a messy chart",
+    "Making charts consistent across a deck"
+   ],
+   "inputs": [
+    "The data",
+    "The message",
+    "Brand colours or template, if any"
+   ],
+   "pairs": [
+    "chart-selection",
+    "action-titles",
+    "deck-quality-check",
+    "insight-synthesis"
+   ]
+  },
+  {
+   "id": "slide-copy-editor",
+   "pack": "story",
+   "title": "Slide Copy Editor",
+   "time": "10 min",
+   "summary": "Tighten slide text: fewer words, clearer claims, consistent style, no jargon.",
+   "tryp": "Edit this slide text for a board audience: [paste text].",
+   "when": [
+    "Final polish of a deck or one-pager",
+    "Text-heavy slides",
+    "Making a deck written by many people sound like one voice"
+   ],
+   "inputs": [
+    "The text",
+    "Audience and any style guide"
+   ],
+   "pairs": [
+    "action-titles",
+    "deck-quality-check",
+    "executive-email",
+    "executive-summary"
+   ]
+  },
+  {
+   "id": "deck-quality-check",
+   "pack": "story",
+   "title": "Deck Quality Check",
+   "time": "15 min",
+   "summary": "A senior-partner style review of a deck: storyline, logic, evidence, numbers and visual consistency.",
+   "tryp": "Do a full quality check on this deck before it goes to the board on Monday: [attach].",
+   "when": [
+    "Before sending any important deck",
+    "Reviewing a team member's work",
+    "Last check before a board or client meeting"
+   ],
+   "inputs": [
+    "The deck or document",
+    "Audience and purpose"
+   ],
+   "pairs": [
+    "action-titles",
+    "slide-copy-editor",
+    "red-team-review",
+    "source-validation"
+   ]
+  },
+  {
+   "id": "speaker-notes",
+   "pack": "story",
+   "title": "Speaker Notes",
+   "time": "10 min",
+   "summary": "Write natural speaker notes and a timing plan, with likely questions and crisp answers.",
+   "tryp": "Write speaker notes for my 12-slide, 20-minute presentation to the investment committee: [attach deck].",
+   "when": [
+    "Before any important presentation",
+    "When someone else built the deck you must present",
+    "Preparing for tough Q&A"
+   ],
+   "inputs": [
+    "The deck",
+    "Time available",
+    "Audience"
+   ],
+   "pairs": [
+    "audience-brief",
+    "deck-quality-check",
+    "meeting-brief",
+    "red-team-review"
+   ]
+  },
+  {
+   "id": "decision-memo",
+   "pack": "story",
+   "title": "Decision Memo",
+   "time": "15 min",
+   "summary": "Write a crisp memo that frames a decision, the options, the recommendation and what is being asked.",
+   "tryp": "Write a decision memo for the ExCo: should we move our customer support to a 24x7 model using AI agents plus a smaller human team?",
+   "when": [
+    "ExCo or leadership decisions",
+    "When a narrative beats slides",
+    "Recording why a decision was taken"
+   ],
+   "inputs": [
+    "The decision and options",
+    "Data and analysis",
+    "Decision-maker and deadline"
+   ],
+   "pairs": [
+    "strategic-options",
+    "executive-summary",
+    "board-paper",
+    "pyramid-structure"
+   ]
+  },
+  {
+   "id": "implementation-roadmap",
+   "pack": "deliver",
+   "title": "Implementation Roadmap",
+   "time": "15 min",
+   "summary": "Turn a recommendation into a phased roadmap with workstreams, milestones, dependencies and quick wins.",
+   "tryp": "Build an 18-month roadmap to implement a new finance operating model with a shared-services centre in Pune.",
+   "when": [
+    "After a recommendation is approved",
+    "Board or sponsor asks 'how will this actually happen?'",
+    "Re-planning a stalled programme"
+   ],
+   "inputs": [
+    "The recommendation and scope",
+    "Timeframe, budget, constraints",
+    "Teams and capacity available"
+   ],
+   "pairs": [
+    "raci-builder",
+    "change-plan",
+    "risk-assessment",
+    "steerco-update"
+   ]
+  },
+  {
+   "id": "operating-model",
+   "pack": "deliver",
+   "title": "Operating Model Design",
+   "time": "20 min",
+   "summary": "Design how the organisation will work: structure, processes, people, technology, governance and locations.",
+   "tryp": "Design the target operating model for a new AI and data Global Capability Centre serving a US parent.",
+   "when": [
+    "Reorganisations and function redesign",
+    "Shared services / GCC set-up",
+    "Post-merger integration"
+   ],
+   "inputs": [
+    "Strategy and goals the model must serve",
+    "Current model (if any)",
+    "Constraints: budget, locations, regulation, talent"
+   ],
+   "pairs": [
+    "raci-builder",
+    "implementation-roadmap",
+    "change-plan",
+    "ai-governance-review"
+   ]
+  },
+  {
+   "id": "raci-builder",
+   "pack": "deliver",
+   "title": "RACI Builder",
+   "time": "10 min",
+   "summary": "Clarify who is Responsible, Accountable, Consulted and Informed for each activity or decision.",
+   "tryp": "Build a RACI for our monthly financial close across Group Finance, BU finance, shared services and IT.",
+   "when": [
+    "New programmes, processes or org changes",
+    "When decisions stall or get re-opened",
+    "Audit findings on unclear ownership"
+   ],
+   "inputs": [
+    "Activities or decisions",
+    "Roles or teams involved"
+   ],
+   "pairs": [
+    "operating-model",
+    "implementation-roadmap",
+    "stakeholder-map",
+    "change-plan"
+   ]
+  },
+  {
+   "id": "change-plan",
+   "pack": "deliver",
+   "title": "Change Management Plan",
+   "time": "15 min",
+   "summary": "Plan the people side of change: impact by group, messages, training, resistance and adoption measures.",
+   "tryp": "Build a change plan for rolling out an AI copilot to 3,000 relationship managers in a bank.",
+   "when": [
+    "System rollouts and process changes",
+    "Reorganisations",
+    "AI or automation adoption"
+   ],
+   "inputs": [
+    "What is changing and why",
+    "Groups affected and how",
+    "Timeline",
+    "Known concerns"
+   ],
+   "pairs": [
+    "stakeholder-map",
+    "implementation-roadmap",
+    "ai-pilot-design",
+    "workshop-design"
+   ]
+  },
+  {
+   "id": "risk-assessment",
+   "pack": "deliver",
+   "title": "Risk Assessment",
+   "time": "15 min",
+   "summary": "Identify, score and plan responses to the risks of a project, decision or business.",
+   "tryp": "Do a risk assessment for launching our lending app in Indonesia in 2027.",
+   "when": [
+    "Project or programme planning",
+    "Investment cases and board papers",
+    "Periodic risk reviews"
+   ],
+   "inputs": [
+    "The project or decision",
+    "Context: scope, timeline, constraints",
+    "Known risks or past issues"
+   ],
+   "pairs": [
+    "pre-mortem",
+    "risk-appetite",
+    "ai-risk-register",
+    "implementation-roadmap"
+   ]
+  },
+  {
+   "id": "pre-mortem",
+   "pack": "deliver",
+   "title": "Pre-mortem",
+   "time": "10 min",
+   "summary": "Imagine the project has failed, explain why, and fix those causes now.",
+   "tryp": "Run a pre-mortem: it's December 2027 and our ERP migration has failed badly. Why?",
+   "when": [
+    "Before launching a project or approving an investment",
+    "When a team seems overconfident",
+    "Before a big commitment that is hard to reverse"
+   ],
+   "inputs": [
+    "The plan, decision or project",
+    "Timeline and success criteria"
+   ],
+   "pairs": [
+    "risk-assessment",
+    "red-team-review",
+    "hypothesis-tree",
+    "implementation-roadmap"
+   ]
+  },
+  {
+   "id": "steerco-update",
+   "pack": "deliver",
+   "title": "SteerCo Update",
+   "time": "10 min",
+   "summary": "Write a crisp steering committee update: status, decisions needed, risks, and next steps.",
+   "tryp": "Write this month's SteerCo update for our CRM programme from these notes: [paste notes].",
+   "when": [
+    "Programme and project status reporting",
+    "SteerCo or board programme updates",
+    "When status reports are long and say nothing"
+   ],
+   "inputs": [
+    "Progress notes, milestones, KPIs, risks, issues",
+    "Decisions you need"
+   ],
+   "pairs": [
+    "implementation-roadmap",
+    "benefits-tracker",
+    "risk-assessment",
+    "executive-summary"
+   ]
+  },
+  {
+   "id": "benefits-tracker",
+   "pack": "deliver",
+   "title": "Benefits Tracker",
+   "time": "15 min",
+   "summary": "Make sure promised benefits are defined, owned, measured and actually delivered.",
+   "tryp": "Build a benefits tracker for our procurement transformation that promised ₹60 Cr savings over 3 years.",
+   "when": [
+    "After investment approval",
+    "Transformation programmes",
+    "Post-implementation reviews"
+   ],
+   "inputs": [
+    "The business case or promised benefits",
+    "Data sources for measures",
+    "Owners"
+   ],
+   "pairs": [
+    "business-case",
+    "kpi-driver-tree",
+    "steerco-update",
+    "cost-takeout"
+   ]
+  },
+  {
+   "id": "board-paper",
+   "pack": "board",
+   "title": "Board Paper",
+   "time": "20 min",
+   "summary": "Write a board paper directors can read in 10 minutes: purpose, recommendation, analysis, risks and the resolution.",
+   "tryp": "Write a board paper seeking approval to acquire a 51% stake in a logistics start-up for ₹120 Cr.",
+   "when": [
+    "Any board or committee submission",
+    "Turning a management deck into a board paper",
+    "Reviewing a paper before it goes to directors"
+   ],
+   "inputs": [
+    "The matter, purpose and ask",
+    "Analysis, financials, risks",
+    "Relevant policies or regulatory requirements",
+    "Board or committee name and date"
+   ],
+   "pairs": [
+    "board-question-bank",
+    "executive-summary",
+    "risk-assessment",
+    "playbook-board-pack"
+   ]
+  },
+  {
+   "id": "board-question-bank",
+   "pack": "board",
+   "title": "Board Question Bank",
+   "time": "10 min",
+   "summary": "Generate the sharp, fair questions a non-executive director should ask on any paper or topic.",
+   "tryp": "I'm an independent director. Management is proposing a ₹500 Cr investment in a GenAI platform. What should I ask?",
+   "when": [
+    "Preparing for a board or committee meeting",
+    "Management preparing for board scrutiny",
+    "Board evaluation and training"
+   ],
+   "inputs": [
+    "The paper or topic",
+    "Company context",
+    "Your role (chair, committee member, NED)"
+   ],
+   "pairs": [
+    "board-paper",
+    "ai-governance-review",
+    "red-team-review",
+    "risk-appetite"
+   ]
+  },
+  {
+   "id": "ai-governance-review",
+   "pack": "board",
+   "title": "AI Governance Review",
+   "time": "20 min",
+   "summary": "Assess how well an organisation governs AI: policy, roles, inventory, risk, controls, and board oversight.",
+   "tryp": "Review our AI governance. We have 40+ AI use cases, no AI policy, and the data science team approves its own models.",
+   "when": [
+    "Setting up AI governance",
+    "Board or audit committee oversight of AI",
+    "Preparing for regulation or client due diligence"
+   ],
+   "inputs": [
+    "Description of current AI use and governance",
+    "Industry and jurisdictions",
+    "Any existing policies or committees"
+   ],
+   "pairs": [
+    "ai-risk-register",
+    "responsible-ai-review",
+    "board-question-bank",
+    "risk-appetite"
+   ]
+  },
+  {
+   "id": "ai-risk-register",
+   "pack": "board",
+   "title": "AI Risk Register",
+   "time": "15 min",
+   "summary": "Build a risk register for AI use cases: classify, score, control and assign owners.",
+   "tryp": "Build an AI risk register for these use cases: resume screening, customer chatbot, fraud detection, marketing copy generation, credit limit setting.",
+   "when": [
+    "Starting AI governance",
+    "Audit or regulatory review",
+    "Quarterly AI risk reporting"
+   ],
+   "inputs": [
+    "List of AI use cases with a short description",
+    "Sector and jurisdictions"
+   ],
+   "pairs": [
+    "ai-governance-review",
+    "responsible-ai-review",
+    "risk-assessment",
+    "risk-appetite"
+   ]
+  },
+  {
+   "id": "risk-appetite",
+   "pack": "board",
+   "title": "Risk Appetite Statement",
+   "time": "15 min",
+   "summary": "Draft a board risk appetite statement with qualitative positions and measurable limits.",
+   "tryp": "Draft a risk appetite statement for a mid-size NBFC with a growing digital lending book.",
+   "when": [
+    "ERM framework set-up",
+    "Annual board risk review",
+    "Regulator or rating agency expectations"
+   ],
+   "inputs": [
+    "Organisation, strategy and sector",
+    "Current key risk metrics",
+    "Regulatory requirements"
+   ],
+   "pairs": [
+    "risk-assessment",
+    "ai-risk-register",
+    "board-paper",
+    "scenario-planning"
+   ]
+  },
+  {
+   "id": "esg-materiality",
+   "pack": "board",
+   "title": "ESG Materiality Assessment",
+   "time": "20 min",
+   "summary": "Identify and prioritise the sustainability topics that matter most, using double materiality.",
+   "tryp": "Run a materiality assessment for an Indian auto-components manufacturer exporting to Europe.",
+   "when": [
+    "Sustainability strategy or report preparation",
+    "Board ESG oversight",
+    "Investor or customer ESG questionnaires"
+   ],
+   "inputs": [
+    "Company, sector, geographies, value chain",
+    "Existing ESG data or reports",
+    "Key stakeholders"
+   ],
+   "pairs": [
+    "brsr-readiness",
+    "pestel-scan",
+    "risk-appetite",
+    "board-paper"
+   ]
+  },
+  {
+   "id": "brsr-readiness",
+   "pack": "board",
+   "title": "BRSR Readiness Check",
+   "time": "20 min",
+   "summary": "Check readiness for India's Business Responsibility and Sustainability Report, including data gaps and assurance.",
+   "tryp": "Check our BRSR readiness. We're a listed FMCG company; we did BRSR last year but data came from spreadsheets and assurance is coming.",
+   "when": [
+    "Preparing a BRSR filing",
+    "Moving to reasonable assurance on BRSR Core",
+    "Board or audit committee oversight of ESG disclosures"
+   ],
+   "inputs": [
+    "Company profile and listing status",
+    "Last BRSR (if any) and data sources",
+    "Assurance status and timelines"
+   ],
+   "pairs": [
+    "esg-materiality",
+    "board-paper",
+    "risk-assessment",
+    "kpi-dashboard"
+   ]
+  },
+  {
+   "id": "ai-opportunity-scan",
+   "pack": "ai",
+   "title": "AI Opportunity Scan",
+   "time": "15 min",
+   "summary": "Find where AI can create real value in a function or business, grounded in processes and pain points.",
+   "tryp": "Scan our finance function (FP&A, AP, AR, close, treasury) for AI opportunities. 120 people, ERP, monthly close takes 9 days.",
+   "when": [
+    "Starting an AI strategy or roadmap",
+    "Discovery workshops with a function",
+    "Refreshing a stale use-case list"
+   ],
+   "inputs": [
+    "The business or function, key processes, volumes, systems",
+    "Pain points and goals",
+    "Constraints (data, regulation, budget)"
+   ],
+   "pairs": [
+    "ai-use-case-prioritizer",
+    "jobs-to-be-done",
+    "value-chain",
+    "playbook-ai-roadmap"
+   ]
+  },
+  {
+   "id": "ai-use-case-prioritizer",
+   "pack": "ai",
+   "title": "AI Use-Case Prioritiser",
+   "time": "15 min",
+   "summary": "Score and rank AI use cases on value, feasibility and risk, and pick the first wave.",
+   "tryp": "Prioritise these 15 AI use cases for our insurance company: [paste list].",
+   "when": [
+    "After an AI opportunity scan",
+    "Too many AI pilots and no focus",
+    "Annual AI portfolio review"
+   ],
+   "inputs": [
+    "The use-case list with short descriptions",
+    "Strategic priorities",
+    "Constraints and risk appetite"
+   ],
+   "pairs": [
+    "ai-opportunity-scan",
+    "ai-business-case",
+    "data-readiness-check",
+    "strategic-options"
+   ]
+  },
+  {
+   "id": "ai-business-case",
+   "pack": "ai",
+   "title": "AI Business Case",
+   "time": "20 min",
+   "summary": "Build an honest business case for an AI use case, including model, data, change and run costs.",
+   "tryp": "Build a business case to scale our GenAI contract-review assistant from 20 legal users to 400 across the group.",
+   "when": [
+    "Funding an AI initiative",
+    "Pilot-to-scale decisions",
+    "Challenging an over-optimistic AI proposal"
+   ],
+   "inputs": [
+    "Use case and users",
+    "Pilot results if any",
+    "Costs: licences/API, people, infrastructure",
+    "Baseline process metrics"
+   ],
+   "pairs": [
+    "business-case",
+    "ai-pilot-design",
+    "sensitivity-analysis",
+    "benefits-tracker"
+   ]
+  },
+  {
+   "id": "data-readiness-check",
+   "pack": "ai",
+   "title": "Data Readiness Check",
+   "time": "15 min",
+   "summary": "Check whether the data for an AI or analytics use case is available, good enough, legal to use and accessible.",
+   "tryp": "Check data readiness for a churn prediction model at a telecom: CRM, billing, network quality and call-centre data.",
+   "when": [
+    "Before an AI or analytics build",
+    "When pilots keep stalling on data",
+    "Data strategy and platform planning"
+   ],
+   "inputs": [
+    "The use case and the decision it supports",
+    "Data sources and what you know about them"
+   ],
+   "pairs": [
+    "ai-use-case-prioritizer",
+    "ai-pilot-design",
+    "responsible-ai-review",
+    "ai-business-case"
+   ]
+  },
+  {
+   "id": "ai-pilot-design",
+   "pack": "ai",
+   "title": "AI Pilot Design",
+   "time": "15 min",
+   "summary": "Design an AI pilot that proves value with clear success criteria, guardrails and a scale decision.",
+   "tryp": "Design a 10-week pilot for an AI assistant that drafts responses to customer complaints at a bank.",
+   "when": [
+    "Before any AI pilot or proof of concept",
+    "Restarting pilots that never scale",
+    "Getting approval for a pilot"
+   ],
+   "inputs": [
+    "The use case and expected value",
+    "Users and process",
+    "Data and tools",
+    "Risk considerations"
+   ],
+   "pairs": [
+    "ai-business-case",
+    "change-plan",
+    "responsible-ai-review",
+    "data-readiness-check"
+   ]
+  },
+  {
+   "id": "agentic-workflow-design",
+   "pack": "ai",
+   "title": "Agentic Workflow Design",
+   "time": "20 min",
+   "summary": "Redesign a process for AI agents working with people: steps, tools, handoffs, controls and metrics.",
+   "tryp": "Design an agentic workflow for intercompany reconciliation across 14 entities in two different ERP systems, month-end close.",
+   "when": [
+    "Redesigning processes with AI agents",
+    "Moving from RPA to AI agents",
+    "Assessing whether a process is ready for agents"
+   ],
+   "inputs": [
+    "The current process steps, systems, volumes, pain points",
+    "Controls and compliance requirements",
+    "Appetite for autonomy"
+   ],
+   "pairs": [
+    "ai-opportunity-scan",
+    "responsible-ai-review",
+    "operating-model",
+    "raci-builder"
+   ]
+  },
+  {
+   "id": "responsible-ai-review",
+   "pack": "ai",
+   "title": "Responsible AI Review",
+   "time": "15 min",
+   "summary": "Review an AI system before launch for fairness, transparency, privacy, safety, security and accountability.",
+   "tryp": "Do a responsible AI review of our GenAI chatbot that will answer customer questions about insurance policies.",
+   "when": [
+    "Before launching or scaling an AI system",
+    "After an AI incident or complaint",
+    "Vendor AI due diligence"
+   ],
+   "inputs": [
+    "System description: purpose, users, data, model, outputs, decision impact",
+    "Testing done so far",
+    "Jurisdiction and sector"
+   ],
+   "pairs": [
+    "ai-risk-register",
+    "ai-governance-review",
+    "ai-pilot-design",
+    "agentic-workflow-design"
+   ]
+  },
+  {
+   "id": "meeting-brief",
+   "pack": "leader",
+   "title": "Meeting Brief",
+   "time": "5 min",
+   "summary": "A one-page brief before any important meeting: objective, people, positions, your asks and your lines.",
+   "tryp": "Brief me for a 30-minute meeting with a prospective client's CFO who is evaluating us for a finance transformation.",
+   "when": [
+    "Before client, investor, board or senior internal meetings",
+    "When you have 10 minutes to prepare",
+    "Briefing a leader who is joining a meeting"
+   ],
+   "inputs": [
+    "Meeting purpose, attendees, time",
+    "What you know about them and the history",
+    "What you want out of it"
+   ],
+   "pairs": [
+    "audience-brief",
+    "negotiation-prep",
+    "stakeholder-map",
+    "executive-email"
+   ]
+  },
+  {
+   "id": "red-team-review",
+   "pack": "leader",
+   "title": "Red-Team Review",
+   "time": "10 min",
+   "summary": "Stress-test a plan, argument or document like a tough, fair critic, before your audience does.",
+   "tryp": "Red-team this strategy: we plan to become the #1 AI consulting partner for mid-market manufacturers in India within 3 years. [paste plan]",
+   "when": [
+    "Before a board, investor or client presentation",
+    "When everyone in the room agrees too fast",
+    "Checking your own thinking"
+   ],
+   "inputs": [
+    "The plan, argument or document",
+    "Context and audience"
+   ],
+   "pairs": [
+    "pre-mortem",
+    "deck-quality-check",
+    "board-question-bank",
+    "hypothesis-tree"
+   ]
+  },
+  {
+   "id": "negotiation-prep",
+   "pack": "leader",
+   "title": "Negotiation Prep",
+   "time": "15 min",
+   "summary": "Prepare a negotiation: interests, BATNA, ZOPA, trade-offs, opening position and concession plan.",
+   "tryp": "Prepare me for negotiating a 3-year renewal with our cloud vendor; they want a 18% increase, our budget allows 5%.",
+   "when": [
+    "Vendor, client or partner negotiations",
+    "Contract renewals and pricing talks",
+    "Internal negotiations for budget or people"
+   ],
+   "inputs": [
+    "What is being negotiated and the stakes",
+    "Your goals, limits and alternatives",
+    "What you know about the other side"
+   ],
+   "pairs": [
+    "meeting-brief",
+    "stakeholder-map",
+    "pricing-strategy",
+    "red-team-review"
+   ]
+  },
+  {
+   "id": "first-90-days",
+   "pack": "leader",
+   "title": "First 90 Days Plan",
+   "time": "15 min",
+   "summary": "Plan a new leadership role: diagnose, build relationships, secure early wins, and set direction.",
+   "tryp": "I'm starting as Head of Data and AI at a mid-size insurer in 3 weeks. Build my 90-day plan.",
+   "when": [
+    "Starting a new role or job",
+    "Taking over a team or function",
+    "Joining a board"
+   ],
+   "inputs": [
+    "The role, organisation and mandate",
+    "What you know about the situation",
+    "Your boss or board's expectations"
+   ],
+   "pairs": [
+    "stakeholder-map",
+    "meeting-brief",
+    "operating-model",
+    "implementation-roadmap"
+   ]
+  },
+  {
+   "id": "executive-email",
+   "pack": "leader",
+   "title": "Executive Email",
+   "time": "5 min",
+   "summary": "Write a short email or message that gets a senior person to read, decide and reply.",
+   "tryp": "Write an email to our CEO asking her to approve hiring 6 people for the AI programme before the hiring freeze on 1 Dec.",
+   "when": [
+    "Any email to a busy senior person",
+    "Escalations",
+    "Requests needing a quick decision"
+   ],
+   "inputs": [
+    "What you need and from whom",
+    "Key facts",
+    "Deadline and tone"
+   ],
+   "pairs": [
+    "pyramid-structure",
+    "slide-copy-editor",
+    "executive-summary",
+    "meeting-brief"
+   ]
+  },
+  {
+   "id": "workshop-design",
+   "pack": "leader",
+   "title": "Workshop Design",
+   "time": "15 min",
+   "summary": "Design a workshop or offsite that produces decisions, not just discussion.",
+   "tryp": "Design a one-day leadership offsite to agree our 3-year AI strategy priorities with 14 executives.",
+   "when": [
+    "Strategy offsites",
+    "Discovery or design workshops",
+    "Team alignment and kick-offs"
+   ],
+   "inputs": [
+    "Purpose and the outputs you need",
+    "Participants and roles",
+    "Time, place (in-person or virtual)"
+   ],
+   "pairs": [
+    "ai-opportunity-scan",
+    "pre-mortem",
+    "change-plan",
+    "meeting-brief"
+   ]
+  },
+  {
+   "id": "start-here",
+   "pack": "playbooks",
+   "title": "Start Here: Toolkit Guide",
+   "time": "2 min",
+   "summary": "Not sure which skill to use? Describe your situation and get the right skills in the right order.",
+   "tryp": "I have a board meeting in 2 weeks to propose a new digital lending business. Which skills should I use and in what order?",
+   "when": [
+    "First time using the toolkit",
+    "Unsure which skill fits your task",
+    "Wanting a guided sequence for a bigger piece of work"
+   ],
+   "inputs": [
+    "What you are trying to achieve, for whom, and by when",
+    "What you already have (data, drafts, notes)"
+   ],
+   "pairs": [
+    "playbook-strategy-review",
+    "playbook-board-pack",
+    "playbook-investment-case",
+    "playbook-ai-roadmap"
+   ]
+  },
+  {
+   "id": "playbook-strategy-review",
+   "pack": "playbooks",
+   "title": "Playbook: Strategy Review",
+   "time": "60-90 min",
+   "summary": "End-to-end strategy review: from the question to a recommended strategy and roadmap, in guided stages.",
+   "tryp": "Run a strategy review for our ₹1,200 Cr hospital chain: growth has stalled and national chains are entering our cities.",
+   "when": [
+    "Annual strategy refresh",
+    "Business-unit strategy review",
+    "New CEO or leader setting direction"
+   ],
+   "inputs": [
+    "The business and the strategic question",
+    "Available data: financials, market, customers, competitors",
+    "Timeline and audience for the final output"
+   ],
+   "pairs": [
+    "start-here",
+    "strategic-options",
+    "implementation-roadmap",
+    "red-team-review"
+   ]
+  },
+  {
+   "id": "playbook-board-pack",
+   "pack": "playbooks",
+   "title": "Playbook: Board Pack",
+   "time": "45-60 min",
+   "summary": "Prepare a complete board submission: paper, summary, risks, resolution, and rehearsal of directors' questions.",
+   "tryp": "Help me prepare the board pack for approval of our ₹300 Cr capex plan for a new plant.",
+   "when": [
+    "Any board or committee submission",
+    "First time presenting to a board",
+    "High-stakes approvals"
+   ],
+   "inputs": [
+    "The matter and the decision sought",
+    "Analysis, numbers and supporting documents",
+    "Board composition and meeting date"
+   ],
+   "pairs": [
+    "board-paper",
+    "board-question-bank",
+    "audience-brief",
+    "risk-assessment"
+   ]
+  },
+  {
+   "id": "playbook-investment-case",
+   "pack": "playbooks",
+   "title": "Playbook: Investment Case",
+   "time": "45-60 min",
+   "summary": "From idea to approval-ready investment case: sizing, economics, model, sensitivity, risks and the ask.",
+   "tryp": "Build the investment case for launching a subscription maintenance service for our industrial pumps installed base.",
+   "when": [
+    "Capex or project approvals",
+    "New product or service launches",
+    "Transformation funding requests"
+   ],
+   "inputs": [
+    "The proposal",
+    "Cost, price, volume data or estimates",
+    "Hurdle rate and approval process"
+   ],
+   "pairs": [
+    "business-case",
+    "sensitivity-analysis",
+    "decision-memo",
+    "unit-economics"
+   ]
+  },
+  {
+   "id": "playbook-ai-roadmap",
+   "pack": "playbooks",
+   "title": "Playbook: AI Roadmap",
+   "time": "60-90 min",
+   "summary": "Build an AI roadmap for a business or function: opportunities, priorities, cases, governance and adoption.",
+   "tryp": "Build an AI roadmap for the operations function of a mid-size Indian logistics company.",
+   "when": [
+    "Enterprise or function AI strategy",
+    "AI programme set-up",
+    "Board-level AI agenda"
+   ],
+   "inputs": [
+    "Business/function, processes, systems, data",
+    "Goals, budget, risk appetite",
+    "Current AI activity and governance"
+   ],
+   "pairs": [
+    "ai-opportunity-scan",
+    "ai-use-case-prioritizer",
+    "ai-governance-review",
+    "change-plan"
+   ]
+  },
+  {
+   "id": "playbook-market-entry",
+   "pack": "playbooks",
+   "title": "Playbook: Market Entry",
+   "time": "60-90 min",
+   "summary": "Decide whether, where and how to enter a new market, from attractiveness to entry mode and launch plan.",
+   "tryp": "Should our Indian SaaS HR platform enter Saudi Arabia, and if so how?",
+   "when": [
+    "New country or region entry",
+    "New customer segment entry",
+    "Responding to a partner or acquisition opportunity abroad"
+   ],
+   "inputs": [
+    "Company and offering",
+    "Target market(s)",
+    "Resources, timelines and constraints"
+   ],
+   "pairs": [
+    "market-sizing",
+    "build-buy-partner",
+    "business-case",
+    "pestel-scan"
+   ]
+  }
+ ]
+}

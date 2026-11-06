@@ -1,0 +1,13 @@
+{
+  "name": "moons2star-consulting",
+  "version": "1.2.0",
+  "description": "moons2star Consultant's Toolkit by Dr. Munmun Das: 83 skills for consultants and leaders, covering problem framing, research, strategy, numbers, storytelling, delivery, boardroom governance and AI transformation.",
+  "author": {
+    "name": "Dr. Munmun Das",
+    "url": "https://moons2star.in"
+  },
+  "homepage": "https://mad0907.github.io/Claude-skills/",
+  "repository": "https://github.com/mad0907/Claude-skills",
+  "license": "CC-BY-4.0",
+  "keywords": ["consulting", "strategy", "board", "governance", "ai-transformation", "business-case", "esg", "brsr", "moons2star"]
+}
