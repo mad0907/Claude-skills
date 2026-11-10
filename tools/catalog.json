@@ -1536,6 +1536,31 @@
    ]
   },
   {
+   "id": "integrity-check",
+   "pack": "board",
+   "title": "Integrity Check",
+   "time": "10 min",
+   "summary": "Screen a plan, proposal or engagement for bribery, money-laundering, tax, health-product, competition and other legal and ethical red lines before it goes out.",
+   "tryp": "Run an integrity check on this growth plan for a pharma client before it goes to the steering committee. It uses a local facilitator for a hospital tender and a doctors' summit abroad. [paste plan]",
+   "when": [
+    "Engagement acceptance and proposals",
+    "Growth, sales, pricing, tax or market-entry recommendations",
+    "When an agent, intermediary or success fee is involved",
+    "Whenever something feels off"
+   ],
+   "inputs": [
+    "The plan, deck or engagement",
+    "Countries, sector and any government touchpoints",
+    "Payment flows and third parties"
+   ],
+   "pairs": [
+    "red-team-review",
+    "risk-appetite",
+    "risk-assessment",
+    "board-question-bank"
+   ]
+  },
+  {
    "id": "esg-materiality",
    "pack": "board",
    "title": "ESG Materiality Assessment",

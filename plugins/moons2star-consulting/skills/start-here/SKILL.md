@@ -1,13 +1,13 @@
 ---
 name: start-here
-description: "Entry point and router for the moons2star Consultant's Toolkit: diagnoses the user's situation, decision, audience, deadline and available material, then recommends the right skills in the right order from the 83 in the toolkit, or a full playbook, explains what each step produces and how outputs connect, flags where human expertise or verification is essential, and offers to start the first step immediately. Use when unsure which skill to use, when starting a new piece of work, or when asking what this toolkit can do."
+description: "Entry point and router for the moons2star Consultant's Toolkit: diagnoses the user's situation, decision, audience, deadline and available material, then recommends the right skills in the right order from the 84 in the toolkit, or a full playbook, explains what each step produces and how outputs connect, flags where human expertise or verification is essential, and offers to start the first step immediately. Use when unsure which skill to use, when starting a new piece of work, or when asking what this toolkit can do."
 ---
 
 # Start Here: Toolkit Guide
 
 *moons2star Consultant's Toolkit · created by Dr. Munmun Das · [moons2star.in](https://moons2star.in)*
 
-**What this gives you:** the shortest sensible path from your situation to a finished, decision-ready output, using the right skills in the right order, without having to learn all 83 first.
+**What this gives you:** the shortest sensible path from your situation to a finished, decision-ready output, using the right skills in the right order, without having to learn all 84 first.
 
 ## The senior standard
 1. **Start from the decision, not the tool.** Ask what decision or output is needed, for whom, by when. Then choose skills.
@@ -34,10 +34,10 @@ If the request is clear, skip the questions and recommend directly.
    - **Short chain (2-5 skills):** a moderate task (e.g. a market-sizing memo).
    - **Playbook:** an end-to-end deliverable (a strategy review, board pack, investment case, AI roadmap, market entry).
 3. **Recommend steps:** skill → what it produces → why it's next. Mark optional steps.
-4. **Flag checks:** fact verification (`source-validation`), stress tests (`red-team-review`, `pre-mortem`), expert review.
+4. **Flag checks:** fact verification (`source-validation`), stress tests (`red-team-review`, `pre-mortem`), legal and ethical red lines (`integrity-check`), expert review.
 5. **Offer to start** step 1 now, and list what you need from the user for it.
 
-## The toolkit map (83 skills, 11 packs)
+## The toolkit map (84 skills, 11 packs)
 - **Frame the problem:** `problem-statement`, `audience-brief`, `issue-tree`, `hypothesis-tree`, `mece-check`, `stakeholder-map`, `engagement-workplan`.
 - **Gather evidence:** `research-plan`, `source-validation`, `research-synthesis`, `interview-guide`, `interview-synthesis`, `survey-design`, `survey-analysis`.
 - **Understand the market:** `market-sizing`, `customer-segmentation`, `competitor-benchmark`, `five-forces`, `pestel-scan`, `value-chain`, `jobs-to-be-done`, `pricing-strategy`.
@@ -45,7 +45,7 @@ If the request is clear, skip the questions and recommend directly.
 - **Do the numbers:** `business-case`, `financial-model-spec`, `unit-economics`, `sensitivity-analysis`, `break-even-payback`, `kpi-driver-tree`, `kpi-dashboard`, `cost-takeout`.
 - **Tell the story:** `scqa-storyline`, `pyramid-structure`, `executive-summary`, `insight-synthesis`, `action-titles`, `ghost-deck`, `chart-selection`, `exhibit-builder`, `slide-copy-editor`, `deck-quality-check`, `speaker-notes`, `decision-memo`.
 - **Deliver change:** `implementation-roadmap`, `operating-model`, `raci-builder`, `change-plan`, `risk-assessment`, `pre-mortem`, `steerco-update`, `benefits-tracker`.
-- **Boardroom and governance:** `board-paper`, `board-question-bank`, `ai-governance-review`, `ai-risk-register`, `risk-appetite`, `esg-materiality`, `brsr-readiness`.
+- **Boardroom and governance:** `board-paper`, `board-question-bank`, `ai-governance-review`, `ai-risk-register`, `risk-appetite`, `integrity-check`, `esg-materiality`, `brsr-readiness`.
 - **AI strategy:** `ai-opportunity-scan`, `ai-use-case-prioritizer`, `ai-business-case`, `data-readiness-check`, `ai-pilot-design`, `agentic-workflow-design`, `responsible-ai-review`.
 - **Leader's desk:** `meeting-brief`, `red-team-review`, `negotiation-prep`, `first-90-days`, `executive-email`, `workshop-design`.
 - **Playbooks:** `start-here`, `playbook-strategy-review`, `playbook-board-pack`, `playbook-investment-case`, `playbook-ai-roadmap`, `playbook-market-entry`.

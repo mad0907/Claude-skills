@@ -32,7 +32,7 @@ description: "Stress-tests a strategy, recommendation, business case, deck or pl
 6. **Number stress:** where would a 20-30% miss on a key driver break the case? (see `sensitivity-analysis`).
 7. **Execution realism:** capacity, capabilities, timelines vs comparable programmes; dependencies.
 8. **Stakeholder and competitor response:** simulate each perspective's strongest objection or move.
-9. **Legal, regulatory, ethical, reputational exposure.**
+9. **Legal, regulatory, ethical, reputational exposure.** For bribery, money-laundering, tax, health-product, competition or conflict concerns, run `integrity-check`.
 10. **Failure conditions:** "This fails if…" (pair with `pre-mortem`).
 11. **Severity ranking:**
     - **Fatal:** must fix before the decision.

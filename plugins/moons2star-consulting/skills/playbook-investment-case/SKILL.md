@@ -33,7 +33,7 @@ description: "Builds an approval-ready investment case in guided stages: frames 
 | 4. Model | Financial structure | `financial-model-spec` | Model specification and assumptions log |
 | 5. Value | NPV, IRR, payback, funding | `business-case`, `break-even-payback` | Incremental cash flows and metrics |
 | 6. Uncertainty | Sensitivity and scenarios | `sensitivity-analysis`, `scenario-planning` | Tornado, switching values, scenarios |
-| 7. Risk and challenge | Risks; stress test | `risk-assessment`, `red-team-review`, `pre-mortem` | Risk register; fixes; staging |
+| 7. Risk and challenge | Risks; stress test | `risk-assessment`, `red-team-review`, `pre-mortem`, `integrity-check` | Risk register; fixes; staging |
 | 8. The ask | Communicate | `decision-memo` or `playbook-board-pack`, `executive-summary` | Decision memo or board paper |
 | 9. After approval | Track | `benefits-tracker`, `implementation-roadmap` | Benefits plan and KPIs |
 

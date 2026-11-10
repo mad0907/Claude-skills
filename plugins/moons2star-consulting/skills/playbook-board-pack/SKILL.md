@@ -33,7 +33,7 @@ description: "Prepares a complete board or board-committee submission in guided 
 | 3. Substance | Options, financials, risks | `strategic-options`, `business-case`, `sensitivity-analysis`, `risk-assessment` (as needed) | Analytical annexes |
 | 4. The paper | Write the board paper | `board-paper`, `executive-summary`, `pyramid-structure` | Board paper and summary |
 | 5. Governance check | Compliance and routing | (checklist below) | Governance confirmation |
-| 6. Challenge | Questions and stress test | `board-question-bank`, `red-team-review` | Q&A annex; fixes |
+| 6. Challenge | Questions and stress test | `board-question-bank`, `red-team-review`, `integrity-check` | Q&A annex; fixes |
 | 7. Quality | The final check | `deck-quality-check` (for any slides), `source-validation` | Clean pack |
 | 8. Meeting | Presentation and pre-briefs | `meeting-brief`, `speaker-notes` | Pre-brief plan; a 10-minute presentation |
 

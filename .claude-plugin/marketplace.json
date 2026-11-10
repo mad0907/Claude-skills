@@ -1,6 +1,6 @@
 {
   "name": "moons2star",
-  "description": "moons2star Consultant's Toolkit for Claude by Dr. Munmun Das: 83 consulting, strategy, boardroom and AI-transformation skills.",
+  "description": "moons2star Consultant's Toolkit for Claude by Dr. Munmun Das: 84 consulting, strategy, boardroom and AI-transformation skills.",
   "owner": {
     "name": "Dr. Munmun Das (moons2star)",
     "url": "https://moons2star.in"
@@ -9,7 +9,7 @@
     {
       "name": "moons2star-consulting",
       "source": "./plugins/moons2star-consulting",
-      "description": "83 skills for consultants and leaders: problem framing, research, market and strategy analysis, business cases, storytelling, delivery, board governance, ESG/BRSR and AI transformation. By Dr. Munmun Das."
+      "description": "84 skills for consultants and leaders: problem framing, research, market and strategy analysis, business cases, storytelling, delivery, board governance, ESG/BRSR and AI transformation. By Dr. Munmun Das."
     }
   ]
 }

@@ -9,7 +9,7 @@
 ## First, two words explained
 
 - **Skill:** a written method that teaches Claude to do one task well, like a senior colleague's checklist. Example: *Board Paper* tells Claude what a board expects, in what order, and what to check before handing it to you.
-- **Plugin:** a bundle of skills you install in one go. This toolkit's plugin is called **moons2star-consulting** and holds all 83 skills.
+- **Plugin:** a bundle of skills you install in one go. This toolkit's plugin is called **moons2star-consulting** and holds all 84 skills.
 
 You do **not** need GitHub, coding or a terminal for Options 1 and 2.
 
@@ -43,7 +43,7 @@ For Claude **Pro, Max, Team or Enterprise**.
 
 ---
 
-## Option 3: Install all 83 skills at once
+## Option 3: Install all 84 skills at once
 
 **In the Claude desktop app**
 1. Open **Customize** (left sidebar) → **Plugins**.

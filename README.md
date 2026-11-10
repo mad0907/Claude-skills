@@ -1,6 +1,6 @@
 # moons2star Consultant's Toolkit for Claude
 
-**83 ready-to-use Claude skills for consultants, executives and board members**, created by **Dr. Munmun Das** ([moons2star.in](https://moons2star.in)).
+**84 ready-to-use Claude skills for consultants, executives and board members**, created by **Dr. Munmun Das** ([moons2star.in](https://moons2star.in)).
 
 ### 👉 [Open the website: browse, copy, download and try every skill](https://mad0907.github.io/Claude-skills/)
 *No GitHub or technical knowledge needed. Start there.*
@@ -11,9 +11,9 @@
 
 | | |
 |---|---|
-| **83 skills in 11 packs** | Problem framing, evidence, market, strategy, numbers, storytelling, delivery, **boardroom and governance**, **AI transformation**, **leader's desk**, and **end-to-end playbooks** |
+| **84 skills in 11 packs** | Problem framing, evidence, market, strategy, numbers, storytelling, delivery, **boardroom and governance**, **AI transformation**, **leader's desk**, and **end-to-end playbooks** |
 | **Real methods, not one-line prompts** | Each skill tells Claude when to use it, what to ask you, the step-by-step method, the output template, a quality check, a worked example and pitfalls to avoid |
-| **In-depth, every skill** | All 83 skills follow the same structure: the senior standard, a diagnosis step, method, judgement calls, red flags, variants by context, an output template and a quality check. Each comes with a worked example (with its arithmetic checked) and a sources file of the public standards and laws it draws on |
+| **In-depth, every skill** | All 84 skills follow the same structure: the senior standard, a diagnosis step, method, judgement calls, red flags, variants by context, an output template and a quality check. Each comes with a worked example (with its arithmetic checked) and a sources file of the public standards and laws it draws on |
 | **Safe by design** | Every skill tells Claude never to invent facts or sources, to label estimates, and to flag legal or regulatory points for verification |
 | **Built for leaders** | Indian and global context (₹ / lakh / crore, BRSR, board practice), plain English, answer first |
 
@@ -23,7 +23,7 @@
 |---|---|---|
 | **1. Copy and paste** | Everyone, any Claude plan | On the [website](https://mad0907.github.io/Claude-skills/), open a skill → **Copy & open Claude** → paste → Enter |
 | **2. Add one skill** | Claude Pro / Max / Team / Enterprise | Download a skill .zip → Claude **Settings → Capabilities → Skills → Upload skill** |
-| **3. Install all 83** | Claude desktop app or Claude Code | Desktop: **Customize → Plugins → + → Add marketplace** → `mad0907/Claude-skills` → install **moons2star-consulting**. Claude Code: see below |
+| **3. Install all 84** | Claude desktop app or Claude Code | Desktop: **Customize → Plugins → + → Add marketplace** → `mad0907/Claude-skills` → install **moons2star-consulting**. Claude Code: see below |
 
 ```text
 /plugin marketplace add mad0907/Claude-skills
@@ -34,7 +34,7 @@ Then call any skill by name, e.g. `/moons2star-consulting:issue-tree`, or just d
 
 A plain-English, step-by-step guide is in **[HOW-TO-USE.md](HOW-TO-USE.md)**.
 
-## All 83 skills
+## All 84 skills
 
 ### Frame the problem (7)
 *Get the question right before anyone builds a slide.*
@@ -135,7 +135,7 @@ A plain-English, step-by-step guide is in **[HOW-TO-USE.md](HOW-TO-USE.md)**.
 | [`steerco-update`](plugins/moons2star-consulting/skills/steerco-update/SKILL.md) | Write a crisp steering committee update: status, decisions needed, risks, and next steps. |
 | [`benefits-tracker`](plugins/moons2star-consulting/skills/benefits-tracker/SKILL.md) | Make sure promised benefits are defined, owned, measured and actually delivered. |
 
-### Boardroom and governance (7)
+### Boardroom and governance (8)
 *Board papers, oversight questions, risk, ESG and AI governance.*
 
 | Skill | What it gives you |
@@ -145,6 +145,7 @@ A plain-English, step-by-step guide is in **[HOW-TO-USE.md](HOW-TO-USE.md)**.
 | [`ai-governance-review`](plugins/moons2star-consulting/skills/ai-governance-review/SKILL.md) | Assess how well an organisation governs AI: policy, roles, inventory, risk, controls, and board oversight. |
 | [`ai-risk-register`](plugins/moons2star-consulting/skills/ai-risk-register/SKILL.md) | Build a risk register for AI use cases: classify, score, control and assign owners. |
 | [`risk-appetite`](plugins/moons2star-consulting/skills/risk-appetite/SKILL.md) | Draft a board risk appetite statement with qualitative positions and measurable limits. |
+| [`integrity-check`](plugins/moons2star-consulting/skills/integrity-check/SKILL.md) | Screen a plan, proposal or engagement for bribery, money-laundering, tax, health-product, competition and other legal and ethical red lines before it goes out. |
 | [`esg-materiality`](plugins/moons2star-consulting/skills/esg-materiality/SKILL.md) | Identify and prioritise the sustainability topics that matter most, using double materiality. |
 | [`brsr-readiness`](plugins/moons2star-consulting/skills/brsr-readiness/SKILL.md) | Check readiness for India's Business Responsibility and Sustainability Report, including data gaps and assurance. |
 
@@ -201,7 +202,7 @@ Every skill carries this disclaimer plus a skill-specific limitation.
 
 ```text
 .claude-plugin/marketplace.json        ← lets people add this repo as a plugin marketplace
-plugins/moons2star-consulting/         ← the plugin (83 skills, each a folder with SKILL.md)
+plugins/moons2star-consulting/         ← the plugin (84 skills, each a folder with SKILL.md)
 docs/                                  ← the website (GitHub Pages) + downloadable .zip files
 tools/build.py, tools/catalog.json     ← rebuilds website data and zips after you edit a skill
 HOW-TO-USE.md                          ← guide for non-technical users

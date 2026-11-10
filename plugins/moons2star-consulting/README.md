@@ -9,7 +9,7 @@
 Or in two steps: `/plugin marketplace add mad0907/Claude-skills`, then `/plugin install moons2star-consulting@moons2star`.
 
 
-The **moons2star Consultant's Toolkit** plugin by **Dr. Munmun Das**: 83 skills for consultants, executives and board members.
+The **moons2star Consultant's Toolkit** plugin by **Dr. Munmun Das**: 84 skills for consultants, executives and board members.
 
 - Call a skill: `/moons2star-consulting:<skill-name>`, e.g. `/moons2star-consulting:board-paper`
 - Not sure where to start: `/moons2star-consulting:start-here`
